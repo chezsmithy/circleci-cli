@@ -27,6 +27,7 @@ builds:
       - amd64
       - arm64
     ignore:
+      # ignored architectures
       - goos: windows
         goarch: arm64
       - goos: darwin
